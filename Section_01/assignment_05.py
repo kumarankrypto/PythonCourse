@@ -23,7 +23,8 @@ word = "Cool"
 
 
 # Your code below:
-
+answer = chars[0:3] + word + chars[3:]
+print(answer)
 
 
 
