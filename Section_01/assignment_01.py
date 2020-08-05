@@ -5,10 +5,8 @@
     How would you change the code to meet the requirement?
 
 """
-
-
-
-
+answer = (15%4)
+print(answer)
 
 
 
