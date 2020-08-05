@@ -21,7 +21,8 @@ word2 = "Truck"
 # Your code below:
 
 
-
+answer = word1[1:] + word2[0] + word2[2:]
+print(answer)
 
 
 
