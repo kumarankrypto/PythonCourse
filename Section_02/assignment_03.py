@@ -23,6 +23,7 @@ krypto.sort()
 krypto_tuple=(krypto[0],krypto[1],krypto[2])
 original_list.pop()
 original_list.append(krypto_tuple)
+print(original_list)
 
 
 
