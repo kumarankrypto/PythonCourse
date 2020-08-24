@@ -15,7 +15,14 @@ original_list = ['cup', 'cereal', 'milk', (8, 4, 3)]
 
 
 
-
+a=original_list[3][0]
+b=original_list[3][1]
+c=original_list[3][2]
+krypto=[a,b,c]
+krypto.sort()
+krypto_tuple=(krypto[0],krypto[1],krypto[2])
+original_list.pop()
+original_list.append(krypto_tuple)
 
 
 
