@@ -15,7 +15,8 @@ Example:
 # Your code below:
 
 def last_list(*args):
-    return args[-1]
+    last_lis = args[-1]
+    return last_lis
 
 
 print(last_list([1,2,3,4,5], ['a', 'b', 'c'], ['mike', 'john']))
