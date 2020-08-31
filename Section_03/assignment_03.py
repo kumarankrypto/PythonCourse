@@ -10,8 +10,8 @@ argument as individual elements in the list.
 
 """
 # Your Code Below:
-def multi_merge(list_a, str):
-    return list_a + str.split() + list(str)
+def multi_merge(list1, str):
+    return list1 + str.split() + list(str)
 
 print(multi_merge([1,2,3,4], "Hello My name is imtiaz"))
 
