@@ -7,8 +7,8 @@
     Make sure to test the function.
 """
 # Your Code Below:
-def separate(str):
-    return list(str)
+def separate(string):
+    return list(string)
 
 print(separate("hello there"))
 
